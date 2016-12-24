@@ -6,7 +6,10 @@
         <link rel="stylesheet" href="content/css/styles.css" type="text/css">
         <script src="app\lib\angular.min.js"></script>
     </head>
-    <body>
+    <!-- Where ever you put ng-app that is where angular controls the app -->
+    <body ng-app>
+        <input type="text" ng-model="favMeat" placeholder="Enter your fav meat">
 
+        <p>Your fav meat is {{favMeat}}</p>
     </body>
 </html>

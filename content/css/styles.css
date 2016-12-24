@@ -16,31 +16,31 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
-#menu-bar {
+#menuBar {
     background: crimson;
     color: #fff;
     padding: 10px;
 }
 
-#menu-bar h1 {
+#menuBar h1 {
     font-size: 24px;
     font-weight: normal;
     display: inline-block;
 }
 
-#menu-bar ul {
+#menuBar ul {
     float: right;
     list-style-type: none;
     padding: 0;
     margin: 6px 0;
 }
 
-#menu-bar li {
+#menuBar li {
     float: right;
     margin-left: 20px;
 }
 
-#menu-bar a {
+#menuBar a {
     color: #fff
 }
 
